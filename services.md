@@ -12,5 +12,5 @@ Services solve the problem of Pod ephemerality and provide stable networking end
 ## `Service Discovery`
 Kubernetes offers two primary methods for service discovery:
 
-`Environment Variables`: When a Pod is run, the kubelet adds environment variables for each active service.
-`DNS`: Kubernetes DNS server watches for new services and creates DNS records for each. Pods configured to use the cluster DNS server can access services by name.
+- `Environment Variables`: When a Pod is run, the kubelet adds environment variables for each active service.
+- `DNS`: Kubernetes DNS server watches for new services and creates DNS records for each. Pods configured to use the cluster DNS server can access services by name.
